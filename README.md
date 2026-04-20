@@ -66,7 +66,7 @@ course-catalogueshub/
     ├── Security/     # Accessible to CareerCoaches group (ALLOW)
     └── Medicine/     # Restricted from CareerCoaches group (DENY)
 ```
-## Repository Structure
+### Repository Structure
 
 ```
 career-coach-ai-app/
@@ -85,7 +85,7 @@ career-coach-ai-app/
     ├── sample-cv.pdf
     └── sample-job-description.pdf
 ```
-## Documents
+### Documents
 
 - [Project Brief](docs/project-brief.docx)
 - [Project Submission](docs/AI_Powered_Career_Coach_Assistance_Application.docx)
