@@ -172,7 +172,7 @@ These words are automatically filtered from all query responses.
 
 ## Documents
 
-- [Project Brief](docs/project-briefgithub.docx)
+- [Project Brief](docs/project-brief.docx)
 - [Project Submission](docs/AI_Powered_Career_Coach_Assistance_Application.docx)
 - [ACL Configuration](config/access-control-list.json)
 
