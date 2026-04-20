@@ -71,19 +71,25 @@ course-catalogueshub/
 ```
 career-coach-ai-app/
 │
-├── README.md                          # This file
+├── README.md                                                # This file
 │
 ├── docs/
-│   ├── Project_Brief.docx             # Original project specification
-│   └── AI_Powered_Career_Coach_       # Project submission with screenshots
-│       Assistance_Application.docx       and implementation evidence
+│   ├── project-brief.docx                                   # Original project specification
+│   ├── ai-powered-career-coach-assistance-application.md     # Project submission with screenshots and implementation evidence
+│   └── screenshots/
+│       ├── final-app.png
+│       ├── data-sources-sync.png
+│       ├── skill-gap-prompt.png
+│       ├── blocked-keywords.png
+│       ├── acl-applied.png
+│       ├── access-allowed.png
+│       ├── access-denied.png
+│       └── app-shared.png
 │
-├── config/
-│   └── access-control-list.json       # ACL config for S3 data source access control
-│
-└── sample-data/                       # (Optional) Sample inputs for testing
-    ├── sample-cv.pdf
-    └── sample-job-description.pdf
+└── config/                                                    # ACL config for S3 data source access control
+    └── access-control-list.json
+
+
 ```
 ### Documents
 
