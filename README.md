@@ -170,11 +170,11 @@ These words are automatically filtered from all query responses.
 - [x] Screenshot of blocked keywords configuration
 - [x] ACL file (`config/access-control-list.json`) uploaded
 
----
+## Documents
 
-## Optional Enhancements
+- [Project Brief](docs/project-brief.docx)
+- [Project Submission](docs/AI_Powered_Career_Coach_Assistance_Application.docx)
+- [ACL Configuration](config/access-control-list.json)
 
-- **Custom Web Experience** — Customize the Q App theme, logo, and text. [Docs](https://docs.aws.amazon.com/amazonq/latest/qbusiness-ug/customizing-web-experience.html)
-- **Automated S3 Sync** — Trigger index sync via S3 Event Notifications + AWS Lambda. [Docs](https://docs.aws.amazon.com/AmazonS3/latest/userguide/EventNotifications.html)
-- **Microsoft Outlook Integration** — Send recommendation emails and schedule reminders directly from the app. [Docs](https://docs.aws.amazon.com/amazonq/latest/qbusiness-ug/integration-msoutlook.html)
+
 
