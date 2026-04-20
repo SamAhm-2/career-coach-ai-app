@@ -18,25 +18,7 @@ Coaches upload a learner's CV and a target job description — the application r
 
 ---
 
-## Repository Structure
 
-```
-career-coach-ai-app/
-│
-├── README.md                          # This file
-│
-├── docs/
-│   ├── Project_Brief.docx             # Original project specification
-│   └── AI_Powered_Career_Coach_       # Project submission with screenshots
-│       Assistance_Application.docx       and implementation evidence
-│
-├── config/
-│   └── access-control-list.json       # ACL config for S3 data source access control
-│
-└── sample-data/                       # (Optional) Sample inputs for testing
-    ├── sample-cv.pdf
-    └── sample-job-description.pdf
-```
 
 ---
 
@@ -84,8 +66,31 @@ course-catalogueshub/
     ├── Security/     # Accessible to CareerCoaches group (ALLOW)
     └── Medicine/     # Restricted from CareerCoaches group (DENY)
 ```
+## Repository Structure
 
----
+```
+career-coach-ai-app/
+│
+├── README.md                          # This file
+│
+├── docs/
+│   ├── Project_Brief.docx             # Original project specification
+│   └── AI_Powered_Career_Coach_       # Project submission with screenshots
+│       Assistance_Application.docx       and implementation evidence
+│
+├── config/
+│   └── access-control-list.json       # ACL config for S3 data source access control
+│
+└── sample-data/                       # (Optional) Sample inputs for testing
+    ├── sample-cv.pdf
+    └── sample-job-description.pdf
+```
+## Documents
+
+- [Project Brief](docs/project-brief.docx)
+- [Project Submission](docs/AI_Powered_Career_Coach_Assistance_Application.docx)
+- [ACL Configuration](config/access-control-list.json)
+
 
 ## Access Control
 
@@ -170,11 +175,6 @@ These words are automatically filtered from all query responses.
 - [x] Screenshot of blocked keywords configuration
 - [x] ACL file (`config/access-control-list.json`) uploaded
 
-## Documents
-
-- [Project Brief](docs/project-brief.docx)
-- [Project Submission](docs/AI_Powered_Career_Coach_Assistance_Application.docx)
-- [ACL Configuration](config/access-control-list.json)
 
 
 
