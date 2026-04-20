@@ -94,7 +94,7 @@ career-coach-ai-app/
 ### Documents
 
 - [Project Brief](docs/project-brief.docx)
-- [Project Submission](docs/AI_Powered_Career_Coach_Assistance_Application.docx)
+- [Project Submission](docs/ai-powered-career-coach-assistance-application.md)
 - [ACL Configuration](config/access-control-list.json)
 ---
 
