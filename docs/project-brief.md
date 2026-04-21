@@ -150,7 +150,7 @@ Navigate to **CareerCoachAssistant → Admin Controls and Guardrails → Global 
 - Screenshot of data sources showing the last sync time
 - Screenshot of the Skill Gap Analysis output card prompt
 - Screenshot of the blocked keywords configuration
-- ACL file (`config/access-control-list.json`)
+- ACL file 
 
 ---
 
