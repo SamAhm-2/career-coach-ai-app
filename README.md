@@ -104,18 +104,6 @@ Course access is restricted by coach expertise using an ACL configuration file a
 
 **File:** `config/access-control-list.json`
 
-```json
-[
-  {
-    "keyPrefix": "s3://course-catalogueshub/Data/Security/",
-    "aclEntries": [{ "Name": "CareerCoaches", "Type": "GROUP", "Access": "ALLOW" }]
-  },
-  {
-    "keyPrefix": "s3://course-catalogueshub/Data/Medicine/",
-    "aclEntries": [{ "Name": "CareerCoaches", "Type": "GROUP", "Access": "DENY" }]
-  }
-]
-```
 
 **IAM Identity Center Groups & Users**
 
