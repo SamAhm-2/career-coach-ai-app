@@ -29,10 +29,7 @@ The application was created in Amazon Q Apps with the following configuration:
 - Training recommendations
 - Suggested learning schedule
 
-> Screenshots of the working interface confirm:
-> - Input cards exist for uploading CVs and job profiles
-> - Output cards are implemented for skill gap analysis and training recommendations
-> - Functionality is verified by uploading sample inputs and generating results
+![Final Application — All Input and Output Cards](screenshots/61-final-app.png)
 
 ### Customize the Application
 
@@ -42,6 +39,8 @@ The following enhancements were added and tested:
 - An input card for personalized recommendations by coaches
 - Functionality of all added components confirmed working
 
+![Customised App — Schedule and Coach Input Cards](screenshots/07-app-customised-tested-1.png)
+
 ---
 
 ## 2. Upload Static PDF and Connect Amazon S3
@@ -50,7 +49,7 @@ The following enhancements were added and tested:
 
 A PDF course catalog was manually uploaded to Amazon Q Business and indexed as a data source.
 
-> Screenshot confirms successful upload. Note: sync status is not visible on this screen — this is expected behaviour confirmed by the BI Track support group. Integration was verified by querying the system and confirming retrieval of relevant course details.
+> Note: sync status is not visible on this screen — this is expected behaviour confirmed by the BI Track support group. Integration was verified by querying the system and confirming retrieval of relevant course details.
 
 ### Amazon S3 Data Source
 
@@ -64,10 +63,7 @@ course-catalogueshub/
     └── Medicine/     ← Restricted medicine catalogs
 ```
 
-> Screenshots confirm:
-> - S3 bucket created and at least one training catalog file uploaded
-> - S3 bucket added as a data source and successfully synced
-> - Recommendations include training from the newly added S3 source
+![Data Sources — Last Sync Time](screenshots/17-s3-datasource-sync-1.png)
 
 ### Automatic Daily Sync
 
@@ -121,11 +117,13 @@ Course access is restricted by coach expertise using an ACL configuration file a
 - Uploaded and applied `access-control-list.json` to the S3 data source
 - Synced the data source after applying the ACL
 
+![ACL Applied to S3 Data Source](screenshots/38-acl-applied-1.png)
+
 **Verification**
 
-> Screenshots confirm both access scenarios:
-> - CareerCoaches group — **access allowed** to Security catalog
-> - CareerCoaches group — **access denied** to Medicine catalog
+![Access Allowed — CareerCoaches accessing Security catalog](screenshots/48-access-allowed.png)
+
+![Access Denied — CareerCoaches denied Medicine catalog](screenshots/49-access-denied.png)
 
 ### Content Moderation — Keyword Blocking
 
@@ -140,7 +138,11 @@ Keyword blocking was configured under **Admin Controls and Guardrails → Global
 | Self-harm |
 | Attack |
 
-> Screenshot of the keyword blocking configuration is included in the submission.
+![Blocked Keywords Configuration](screenshots/50-blocked-keywords-1.png)
+
+### Skill Gap Analysis — Output Card Prompt
+
+![Skill Gap Analysis Prompt](screenshots/63-skill-gap-prompt-1.png)
 
 ---
 
@@ -152,8 +154,6 @@ The application was shared with all users in the account.
 - Application shared account-wide
 - Custom labels applied: `Career Coaching`, `AI-powered`
 - Application endorsed and marked as a **Verified Q App**
-
-> Screenshots confirm sharing status, applied labels, and verification badge.
 
 ---
 
@@ -169,9 +169,9 @@ The application was shared with all users in the account.
 
 ---
 
-
 ## Related Files
 
 - [Project Brief](project-brief.docx)
 - [ACL Configuration](../config/access-control-list.json)
 - [README](../README.md)
+
