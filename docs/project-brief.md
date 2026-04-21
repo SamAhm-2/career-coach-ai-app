@@ -165,13 +165,7 @@ Navigate to **CareerCoachAssistant → Admin Controls and Guardrails → Global 
 
 ---
 
-## 9. Optional Enhancements
 
-- **Customise the Q App web experience** (theme, logo, text) — [AWS Docs](https://docs.aws.amazon.com/amazonq/latest/qbusiness-ug/customizing-web-experience.html)
-- **Automate data source sync** via S3 Event Notifications and AWS Lambda — [AWS Docs](https://docs.aws.amazon.com/AmazonS3/latest/userguide/EventNotifications.html)
-- **Connect to Microsoft Outlook** for recommendation emails and schedule reminders — [AWS Docs](https://docs.aws.amazon.com/amazonq/latest/qbusiness-ug/integration-msoutlook.html)
-
----
 
 ## Related Files
 
