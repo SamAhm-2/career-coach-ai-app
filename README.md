@@ -93,7 +93,7 @@ career-coach-ai-app/
 ```
 ### Documents
 
-- [Project Brief](docs/project-brief.docx)
+- [Project Brief](docs/project-brief.md)
 - [Project Submission](docs/ai-powered-career-coach-assistance-application.md)
 - [ACL Configuration](config/access-control-list.json)
 ---
