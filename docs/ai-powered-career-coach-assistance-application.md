@@ -169,9 +169,3 @@ The application was shared with all users in the account.
 
 ---
 
-## Related Files
-
-- [Project Brief](project-brief.md)
-- [ACL Configuration](../config/access-control-list.json)
-- [README](../README.md)
-
