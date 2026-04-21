@@ -161,13 +161,17 @@ These words are automatically filtered from all query responses.
 
 ---
 
+
+
 ## Submission Checklist
 
-- [x] Screenshot of final application (all input and output cards)
-- [x] Screenshot of data sources with last sync time
-- [x] Screenshot of Skill Gap Analysis output card prompt
-- [x] Screenshot of blocked keywords configuration
-- [x] ACL file (`config/access-control-list.json`) uploaded
+| # | Requirement | Status |
+|---|---|---|
+| 1 | Screenshot of final application (all input and output cards) | ✅ |
+| 2 | Screenshot of data sources with last sync time | ✅ |
+| 3 | Screenshot of Skill Gap Analysis output card prompt | ✅ |
+| 4 | Screenshot of blocked keywords configuration | ✅ |
+| 5 | ACL file (`config/access-control-list.json`) uploaded | ✅ |
 
 
 
