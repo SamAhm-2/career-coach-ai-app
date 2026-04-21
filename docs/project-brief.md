@@ -167,10 +167,6 @@ Navigate to **CareerCoachAssistant → Admin Controls and Guardrails → Global 
 
 
 
-## Related Files
 
-- [Project Submission](ai-powered-career-coach-assistance-application.md)
-- [ACL Configuration](../config/access-control-list.json)
-- [README](../README.md)
 
 
